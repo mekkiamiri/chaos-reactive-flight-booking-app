@@ -1,1 +1,15 @@
+server:
+  port: 14215
 
+spring:
+  profiles: chaos
+
+chaos:
+  monkey:
+    enabled: true
+    watcher:
+      rest-controller: true
+    assaults:
+      latency-active: true
+      latency-range-start: 3000
+      latency-range-end: 15000

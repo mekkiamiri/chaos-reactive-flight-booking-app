@@ -12,7 +12,7 @@ class SearchCommand (val originLocation: String,
     val returnDate : LocalDate?
 
     init {
-        val formatter = DateTimeFormatter.ofPattern("yyyy-MMM-dd")
+        val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd")
         departureDate = LocalDate.parse(departureDateAsString, formatter)
         returnDate = if (returnDateAsString.isNullOrEmpty()) null
                      else LocalDate.parse(returnDateAsString, formatter)

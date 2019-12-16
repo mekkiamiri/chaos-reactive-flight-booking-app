@@ -1,17 +1,9 @@
-flight model:
- - list of proposed itineraries: list of segments for departure and list of segment for return
- - 1 selected itinerary = ist of segments (1 for oneway and 2 for round trip)
- - 1 itinerary specification
- - 1 segment = origin, destinations, departure datetime, arrival datetime, flight number, price
+Order 
 
-
-Command 1: Search flights:
-    - when command received, create aggregate and raise event
-    - store aggregate and return its id
-    - prepare flight results by calling external service
-
-Query 1 : request departure segments
-Command 2: select segment
-    - add segment to aggregate and save it
-Query 2: request return segments
-Command 3 : see previous command
+- date
+- price: shopping price, booking price => value object
+- Status
+- Payment info:  => value object
+- Travelerdata: fist name, last name, email, address = > value object
+- flightItem: flight number, origin, destination, flight number => value object
+- order invoice = pnr , ticket => entity

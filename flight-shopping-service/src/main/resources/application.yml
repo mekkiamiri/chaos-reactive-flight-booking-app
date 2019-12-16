@@ -1,6 +1,3 @@
-server:
-  port: 14215
-
 spring:
   profiles: chaos
 

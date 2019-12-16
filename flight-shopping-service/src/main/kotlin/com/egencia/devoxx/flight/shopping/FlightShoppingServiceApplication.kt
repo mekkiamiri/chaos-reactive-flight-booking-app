@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication(exclude = [GraphQLWebAutoConfiguration::class, GraphQLJavaToolsAutoConfiguration::class])
-class PnrAnalyserServiceApplication
+class FlightShoppingServiceApplication
 
 fun main() {
-	runApplication<PnrAnalyserServiceApplication>()
+	runApplication<FlightShoppingServiceApplication>()
 }

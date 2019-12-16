@@ -1,21 +1,13 @@
-type PnrHistory {
-    status: PnrState,
+type FlightDetails {
+    status: String,
     bookingDate: String,
     ticketingDate: String,
     cancelDate: String,
     ticketNumber: String
 }
 
-enum PnrState {
-    UNKOWN,
-    BOOKED,
-    TICKETED,
-    CANCELLED
-}
-
 type Query {
-    pnrState(pnr: String, provider: String): PnrState,
-    pnrDetails(pnr: String, provider: String): PnrHistory
+    flightDetails(pnr: String, provider: String): FlightDetails
 }
 
 

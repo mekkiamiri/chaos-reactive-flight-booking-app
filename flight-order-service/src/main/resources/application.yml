@@ -9,13 +9,18 @@ management:
 
 chaos:
   monkey:
-    enabled: true
-    assaults:
-      level: 8
-      latencyRangeStart: 1000
-      latencyRangeEnd: 10000
-      exceptionsActive: true
-      killApplicationActive: true
     watcher:
-      repository: true
-      restController: true
+      component: false
+      controller: false
+      repository: false
+      rest-controller: true
+      service: true
+    assaults:
+      latency-active: true
+      latency-range-start: 300000
+      latency-range-end: 1500000
+    enabled: true
+
+spring:
+  profiles:
+    active: chaos-monkey

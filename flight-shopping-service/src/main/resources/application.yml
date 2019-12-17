@@ -1,7 +1,8 @@
-spring:
-  profiles: chaos
-  devtools:
-    add-properties: false
+management:
+  server:
+    port: 8029
+    security:
+      enabled: false
 
 chaos:
   monkey:
@@ -10,5 +11,5 @@ chaos:
       rest-controller: true
     assaults:
       latency-active: true
-      latency-range-start: 3000
-      latency-range-end: 15000
+      latency-range-start: 30000
+      latency-range-end: 150000

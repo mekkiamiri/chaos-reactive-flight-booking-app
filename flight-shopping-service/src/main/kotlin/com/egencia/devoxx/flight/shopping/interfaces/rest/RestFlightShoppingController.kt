@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 class RestFlightShoppingController(private val flightShoppingCommandService: FlightShoppingCommandService) {
-    //http://localhost:8080/flightdetails?origin=par&destination=mar&departureDate=2020-05-21&returnDate=2020-06-21
+    //http://localhost:8080/flightdetails?origin=PAR&destination=MRS&departureDate=2020-05-21&returnDate=2020-06-21
     @GetMapping(value = ["/flightdetails"], produces = ["application/json"])
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
@@ -22,5 +22,17 @@ class RestFlightShoppingController(private val flightShoppingCommandService: Fli
 
         return FlightDetails("booked", "2019-05-01", "", "", "123456789")
     }
+
+    @GetMapping(value = ["/"], produces = ["application/json"])
+    @ResponseStatus(HttpStatus.OK)
+    @ResponseBody
+    fun info(@RequestParam(value = "origin") origin: String,
+                            @RequestParam(value = "destination") destination:String,
+                            @RequestParam(value = "departureDate") departureDate:String,
+                            @RequestParam(value = "returnDate") returnDate:String): String {
+
+        return "OK"
+    }
+
 
 }

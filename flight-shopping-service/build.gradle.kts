@@ -33,6 +33,7 @@ dependencies {
     implementation("io.reactivex.rxjava2:rxjava:2.2.15")
     implementation("org.joda:joda-money:1.0.1")
 	implementation("de.codecentric:chaos-monkey-spring-boot:2.1.1")
+	implementation("io.micrometer:micrometer-core:1.0.0")
 
 	developmentOnly("org.springframework.boot:spring-boot-devtools")
 	testImplementation("org.springframework.boot:spring-boot-starter-test") {

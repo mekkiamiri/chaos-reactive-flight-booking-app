@@ -26,10 +26,7 @@ class RestFlightShoppingController(private val flightShoppingCommandService: Fli
     @GetMapping(value = ["/"], produces = ["application/json"])
     @ResponseStatus(HttpStatus.OK)
     @ResponseBody
-    fun info(@RequestParam(value = "origin") origin: String,
-                            @RequestParam(value = "destination") destination:String,
-                            @RequestParam(value = "departureDate") departureDate:String,
-                            @RequestParam(value = "returnDate") returnDate:String): String {
+    fun info(): String {
 
         return "OK"
     }

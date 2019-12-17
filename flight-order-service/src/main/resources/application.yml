@@ -1,1 +1,21 @@
+management:
+  endpoint:
+    chaosmonkey:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health,info,chaosmonkey
 
+chaos:
+  monkey:
+    enabled: true
+    assaults:
+      level: 8
+      latencyRangeStart: 1000
+      latencyRangeEnd: 10000
+      exceptionsActive: true
+      killApplicationActive: true
+    watcher:
+      repository: true
+      restController: true

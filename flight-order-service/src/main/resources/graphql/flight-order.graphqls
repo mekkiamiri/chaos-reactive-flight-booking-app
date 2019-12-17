@@ -1,0 +1,10 @@
+type FlightDetails {
+    bookingDate: String,
+    ticketingDate: String,
+    cancelDate: String,
+    ticketNumber: String
+}
+
+type Query {
+    processOrder(pnr: String, provider: String): FlightDetails
+}

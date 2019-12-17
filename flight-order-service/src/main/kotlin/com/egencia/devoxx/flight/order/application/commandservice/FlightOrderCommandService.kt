@@ -16,4 +16,9 @@ class FlightOrderCommandService {
         //and then query for return results
 
     }
+
+    fun orderFlight() {
+        println("test chaos")
+    }
+
 }

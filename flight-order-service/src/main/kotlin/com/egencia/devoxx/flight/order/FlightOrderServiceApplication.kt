@@ -6,6 +6,6 @@ import org.springframework.boot.runApplication
 @SpringBootApplication
 class FlightOrderServiceApplication
 
-fun main(args: Array<String>) {
-	runApplication<FlightOrderServiceApplication>(*args)
+fun main() {
+	runApplication<FlightOrderServiceApplication>()
 }

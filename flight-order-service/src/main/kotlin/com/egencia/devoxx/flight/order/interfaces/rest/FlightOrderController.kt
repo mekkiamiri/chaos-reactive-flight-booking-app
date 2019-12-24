@@ -12,6 +12,6 @@ class FlightOrderController(private val flightOrderCommandService: FlightOrderCo
     //{
     //  flightdetails(origin: "par", destination: "mar")
     //}
-    fun flightDetails (pnr: String, provider: String) = FlightDetails("booked", "2019-05-01", "", "", "123456789")
+    fun processOrder (pnr: String, provider: String) = FlightDetails("booked", "2019-05-01", "", "", "123456789")
 
 }

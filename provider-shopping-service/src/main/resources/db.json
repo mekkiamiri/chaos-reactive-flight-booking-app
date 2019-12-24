@@ -1,0 +1,83 @@
+[
+  {
+    "database": "datagen_it_test",
+    "collection": "test",
+    "count": 1000000,
+    "content": {
+      "_id": {
+        "type": "ref",
+        "id": 1,
+        "refContent": {
+          "type": "objectId"
+        }
+      },
+      "flight": {
+        "type": "object",
+        "objectContent": {
+          "departureDateOffset": {
+            "type": "fromArray",
+            "in": [
+              "08:05",
+              "09:15",
+              "10:25",
+              "11:35",
+              "12:45",
+              "13:55",
+              "14:05",
+              "15:10",
+              "16:15",
+              "17:25",
+              "18:35",
+              "20:05",
+              "21:15",
+              "22:05",
+              "23:05"
+            ]
+          },
+          "durationInMin": {
+            "type": "constant",
+            "constVal": "80"
+          },
+          "origin": {
+            "type": "constant",
+            "constVal": {
+              "originCode": "PAR",
+              "originName": "PARIS"
+            }
+          },
+          "destination": {
+            "type": "constant",
+            "constVal": {
+              "originCode": "MRS",
+              "originName": "Marseille"
+            }
+          },
+          "carrier": {
+            "type": "object",
+            "objectContent": {
+              "airline": {
+                "type": "constant",
+                "constVal": {
+                  "airlineCode": "AF",
+                  "airline": "Air France"
+                }
+              },
+              "flightNumberSufix": {
+                "type": "int",
+                "minInt": 1270,
+                "maxInt": 1284
+              }
+            }
+          },
+          "price": {
+            "type": "constant",
+            "constVal": {
+              "priceAmount": "110",
+              "priceCurrency": "€"
+            }
+          }
+        }
+      }
+    }
+  }
+]

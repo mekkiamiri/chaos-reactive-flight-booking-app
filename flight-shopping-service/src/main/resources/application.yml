@@ -12,11 +12,13 @@ chaos:
       service: true
     assaults:
       latency-active: true
-      latency-range-start: 300000
-      latency-range-end: 1500000
+      latency-range-start: 30000
+      latency-range-end: 150000
     enabled: true
 
+
 management:
-  endpoint:
-    chaosmonkey:
-      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: health, info, metrics, prometheus

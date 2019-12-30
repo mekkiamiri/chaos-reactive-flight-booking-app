@@ -1,0 +1,1004 @@
+[
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d171fc"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "06:00",
+    "flightNumber": "BA301",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d1717f"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "06:05",
+    "flightNumber": "AF1269",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17216"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "06:20",
+    "flightNumber": "AZ331",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17230"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "06:20",
+    "flightNumber": "TO451",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d17237"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "06:30",
+    "flightNumber": "U28721",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17243"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "06:40",
+    "flightNumber": "FR6371",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e3"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "06:45",
+    "flightNumber": "LH101",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d1723d"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "06:50",
+    "flightNumber": "VY8770",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d171fd"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "07:20",
+    "flightNumber": "BA302",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17180"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "07:25",
+    "flightNumber": "AF1270",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17217"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "07:40",
+    "flightNumber": "AZ332",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e4"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "08:05",
+    "flightNumber": "LH102",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d171fe"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "08:40",
+    "flightNumber": "BA303",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17181"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "08:45",
+    "flightNumber": "AF1271",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17231"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "08:50",
+    "flightNumber": "TO452",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17218"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "09:00",
+    "flightNumber": "AZ333",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d17238"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "09:00",
+    "flightNumber": "U28722",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17244"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "09:10",
+    "flightNumber": "FR6372",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d1723e"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "09:20",
+    "flightNumber": "VY8771",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e5"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "09:25",
+    "flightNumber": "LH103",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d171ff"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "10:00",
+    "flightNumber": "BA304",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17182"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "10:05",
+    "flightNumber": "AF1272",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17219"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "10:20",
+    "flightNumber": "AZ334",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e6"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "10:45",
+    "flightNumber": "LH104",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17200"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "11:20",
+    "flightNumber": "BA305",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17232"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "11:20",
+    "flightNumber": "TO453",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17183"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "11:25",
+    "flightNumber": "AF1273",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d17239"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "11:30",
+    "flightNumber": "U28723",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721a"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "11:40",
+    "flightNumber": "AZ335",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17245"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "11:40",
+    "flightNumber": "FR6373",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d1723f"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "11:50",
+    "flightNumber": "VY8772",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e7"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "12:05",
+    "flightNumber": "LH105",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17201"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "12:40",
+    "flightNumber": "BA306",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17184"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "12:45",
+    "flightNumber": "AF1274",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721b"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "13:00",
+    "flightNumber": "AZ336",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e8"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "13:25",
+    "flightNumber": "LH106",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17233"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "13:50",
+    "flightNumber": "TO454",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17202"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "14:00",
+    "flightNumber": "BA307",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d1723a"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "14:00",
+    "flightNumber": "U28724",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17185"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "14:05",
+    "flightNumber": "AF1275",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721c"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "14:20",
+    "flightNumber": "AZ337",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d17240"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "14:20",
+    "flightNumber": "VY8773",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171e9"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "14:45",
+    "flightNumber": "LH107",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17203"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "15:20",
+    "flightNumber": "BA308",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17186"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "15:25",
+    "flightNumber": "AF1276",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721d"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "15:40",
+    "flightNumber": "AZ338",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171ea"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "16:05",
+    "flightNumber": "LH108",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17246"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "14:10",
+    "flightNumber": "FR6374",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17234"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "16:20",
+    "flightNumber": "TO455",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d1723b"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "16:30",
+    "flightNumber": "U28725",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17204"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "16:40",
+    "flightNumber": "BA309",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17247"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "16:40",
+    "flightNumber": "FR6375",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17187"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "16:45",
+    "flightNumber": "AF1277",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d17241"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "16:50",
+    "flightNumber": "VY8774",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721e"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "17:00",
+    "flightNumber": "AZ339",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171eb"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "17:25",
+    "flightNumber": "LH109",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17205"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "18:00",
+    "flightNumber": "BA310",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17188"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "18:05",
+    "flightNumber": "AF1278",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d1721f"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "18:20",
+    "flightNumber": "AZ340",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171ec"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "18:45",
+    "flightNumber": "LH110",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17235"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "18:50",
+    "flightNumber": "TO456",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00dcc41a4f5d47a2d1723c"),
+    "airline": {
+      "name": "EasyJet",
+      "code": "U2"
+    },
+    "departureDateOffset": "19:00",
+    "flightNumber": "U28726",
+    "price": {
+      "priceAmount": "80",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17248"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "19:10",
+    "flightNumber": "FR6376",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17206"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "19:20",
+    "flightNumber": "BA311",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00ddf51a4f5d47a2d17242"),
+    "airline": {
+      "name": "Vueling",
+      "code": "VY"
+    },
+    "departureDateOffset": "19:20",
+    "flightNumber": "VY8775",
+    "price": {
+      "priceAmount": "85",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d17189"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "19:25",
+    "flightNumber": "AF1279",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17220"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "19:40",
+    "flightNumber": "AZ341",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171ed"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "20:05",
+    "flightNumber": "LH111",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17207"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "20:40",
+    "flightNumber": "BA312",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d1718a"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "20:45",
+    "flightNumber": "AF1280",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17221"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "21:00",
+    "flightNumber": "AZ342",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00db951a4f5d47a2d17236"),
+    "airline": {
+      "name": "Transavia",
+      "code": "TO"
+    },
+    "departureDateOffset": "21:20",
+    "flightNumber": "TO457",
+    "price": {
+      "priceAmount": "90",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d62b1a4f5d47a2d171ee"),
+    "airline": {
+      "name": "Lufthansa",
+      "code": "LH"
+    },
+    "departureDateOffset": "21:25",
+    "flightNumber": "LH112",
+    "price": {
+      "priceAmount": "120",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00df4f1a4f5d47a2d17249"),
+    "airline": {
+      "name": "Ryanair",
+      "code": "FR"
+    },
+    "departureDateOffset": "21:40",
+    "flightNumber": "FR6377",
+    "price": {
+      "priceAmount": "75",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d8801a4f5d47a2d17208"),
+    "airline": {
+      "name": "British Airways",
+      "code": "BA"
+    },
+    "departureDateOffset": "22:00",
+    "flightNumber": "BA313",
+    "price": {
+      "priceAmount": "130",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d35e1a4f5d47a2d1718b"),
+    "airline": {
+      "name": "Air France",
+      "code": "AF"
+    },
+    "departureDateOffset": "22:05",
+    "flightNumber": "AF1281",
+    "price": {
+      "priceAmount": "110",
+      "priceCurrency": "€"
+    }
+  },
+  {
+    "_id": ObjectId("5e00d9f81a4f5d47a2d17222"),
+    "airline": {
+      "name": "Alitalia",
+      "code": "AZ"
+    },
+    "departureDateOffset": "22:20",
+    "flightNumber": "AZ343",
+    "price": {
+      "priceAmount": "140",
+      "priceCurrency": "€"
+    }
+  }
+}
+]
